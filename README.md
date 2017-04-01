@@ -1,6 +1,6 @@
 # markdown-it-chart
 
-Chart.js for markdown-it.
+Chart.js plugin for markdown-it.
 
 
 ## Installation
