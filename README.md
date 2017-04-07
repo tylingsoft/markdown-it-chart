@@ -49,6 +49,7 @@ mdi.render(`\`\`\`chart
   "options": {}
 }
 \`\`\``)
+```
 
 
 ## Test
