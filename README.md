@@ -51,15 +51,7 @@ mdi.render(`\`\`\`chart
 \`\`\``)
 
 
-## Development
-
-### Build
-
-```
-yarn build
-```
-
-### Test
+## Test
 
 ```
 yarn test
