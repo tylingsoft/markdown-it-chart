@@ -12,7 +12,7 @@ yarn install markdown-it-chart
 
 ## Usage
 
-```JavaScript
+```js
 import markdownIt from 'markdown-it'
 import markdownItChart from 'markdown-it-chart'
 const mdi = markdownIt()
@@ -52,8 +52,25 @@ mdi.render(`\`\`\`chart
 ```
 
 
-## Test
+## Development
+
+### Build
+
+```
+yarn build:watch
+```
+
+### Test
 
 ```
 yarn test
 ```
+
+### Distribution
+
+```
+yarn release && npm publish
+```
+
+
+## Todo

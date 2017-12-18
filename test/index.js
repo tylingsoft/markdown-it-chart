@@ -1,6 +1,6 @@
 import assert from 'assert'
 import markdownIt from 'markdown-it'
-import markdownItChart from '../src/index'
+import markdownItChart from '../dist/index'
 
 const mdi = markdownIt()
 mdi.use(markdownItChart)
