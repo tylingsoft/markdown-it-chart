@@ -1,20 +1,20 @@
 {
   "name": "markdown-it-chart",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Chart.js plugin for markdown-it.",
   "main": "src/index.js",
   "scripts": {
     "test": "node -r babel-register test/index.js",
-    "upgrade": "ncu -ua && yarn upgrade"
+    "upgrade": "yarn-upgrade-all"
   },
   "repository": "git@github.com:tylingsoft/markdown-it-chart.git",
   "author": "Tyler Long <tyler4long@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "babel-preset-env": "^1.3.2",
-    "babel-register": "^6.24.0",
-    "markdown-it": "^8.3.1",
-    "npm-check-updates": "^2.10.5",
-    "standard": "^10.0.1"
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "markdown-it": "^8.4.0",
+    "standard": "^10.0.3",
+    "yarn-upgrade-all": "^0.2.0"
   }
 }
